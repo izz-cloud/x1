@@ -152,7 +152,7 @@ export default function ProjectDetailClient({
                   >
                     <Image
                       src={image}
-                      alt={${project.title} gallery image ${index + 1}}
+                      alt={`${project.title} gallery image ${index + 1}`}
                       width={400}
                       height={300}
                       className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
